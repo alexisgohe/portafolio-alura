@@ -1,0 +1,91 @@
+.skill{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.skills__container{
+  margin: auto;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.skills__container-img{
+  width: 75px;
+  padding: 10px 0;
+}
+
+.skills__container-span{
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.html{
+  border-bottom: 4px solid #e34f26;
+  border-right: 1px solid #e34f26;
+  border-left: 1px solid #e34f26;
+}
+
+.css{
+  border-bottom: 4px solid #0277BD;
+  border-right: 1px solid #0277BD;
+  border-left: 1px solid #0277BD;
+}
+
+.sass{
+  border-bottom: 4px solid #cc6699;
+  border-right: 1px solid #cc6699;
+  border-left: 1px solid #cc6699;
+}
+
+.bootstrap{
+  border-bottom: 4px solid #563d7c;
+  border-right: 1px solid #563d7c;
+  border-left: 1px solid #563d7c;
+}
+
+.git{
+  border-bottom: 4px solid #14191e;
+  border-right: 1px solid #14191e;
+  border-left: 1px solid #14191e;
+}
+
+.js{
+  border-bottom: 4px solid #f7df1e;
+  border-right: 1px solid #f7df1e;
+  border-left: 1px solid #f7df1e;
+}
+
+.node{
+  border-bottom: 4px solid #8cc84b;
+  border-right: 1px solid #8cc84b;
+  border-left: 1px solid #8cc84b;
+}
+
+.react{
+  border-bottom: 4px solid #00d8ff;
+  border-right: 1px solid #00d8ff;
+  border-left: 1px solid #00d8ff;
+}
+
+@media (max-width: 1176px) {
+  .skill{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 896px) {
+  .skill{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 636px) {
+  .skill{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

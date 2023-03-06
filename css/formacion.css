@@ -1,0 +1,18 @@
+.formacion__div{
+  display: flex;
+  align-items: center;
+}
+
+.formacion__text{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.formacion__span{
+  padding: 10px 0;
+}
+
+.container__button{
+  text-decoration: none;
+}

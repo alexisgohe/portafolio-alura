@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.header__img{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.header__img-dc {
+  width: 70px;
+  padding: 0 10px;
+}
+
+.header__link-a {
+  text-decoration: none;
+  color: #9ba6ad;
+  display: inline;
+  padding: 0 30px;
+  font-size: 0.95rem;
+}
+
+.header__link-a:hover {
+  color: #707f89;
+}
+
+@media (max-width: 896px) {
+  .header__link-a{
+    display: none;
+  }
+}
