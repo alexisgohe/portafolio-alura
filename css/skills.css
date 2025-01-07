@@ -67,9 +67,9 @@
 }
 
 .react{
-  border-bottom: 4px solid #00d8ff;
-  border-right: 1px solid #00d8ff;
-  border-left: 1px solid #00d8ff;
+  border-bottom: 4px solid #ff0039;
+  border-right: 1px solid #ff0039;
+  border-left: 1px solid #ff0039;
 }
 
 @media (max-width: 1176px) {
